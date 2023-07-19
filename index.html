@@ -20,43 +20,35 @@
     <!-- <div class="add-btn-div">
       <button id="add-btn">Add Books</button>
     </div> -->
+<div id="root">
 
-    <div class="add-book-div" id="add-book-div">
+
+    <div class="input-div" id="input-div-id">
       <form class="form">
         <div class="form-div">
-          <label for="Name">Name</label>
-          <input type="text" name="name" id="name" placeholder="Book name" />
+          <input type="text" name="name" id="book-id" placeholder="Book name" />
         </div>
         <div class="form-div">
-          <label for="Author">Author</label>
-          <input
-            type="text"
-            name="author"
-            id="author"
-            placeholder="Author name"
-          />
+          <input type="text" name="author" id="author-id" placeholder="Author" />
         </div>
         <div class="form-div">
-          <label for="Pages">Pages</label>
-          <input
-            type="number"
-            name="pages"
-            id="pages"
-            placeholder="Number of pages"
-          />
+          <input type="text" name="read" id="read-id" placeholder="Read" />
         </div>
         <div class="form-div">
-          <label for="Read">Read</label>
-          <select name="status" id="status" class="u-full-width">
-            <option value="read">Read</option>
-            <option value="not read">Not read</option>
-          </select>
+          <button class="add-btn" id="submit-id">submit</button>
         </div>
-
-        <input type="submit" value="Add Books" class="button-primary" />
+        
       </form>
     </div>
+
+
+    <div class="add-book-div">
+      <button class="add-btn" id="add-book-id">Add Books</button>
+    </div>
+
+  </div>
 
     <script src="script.js"></script>
   </body>
 </html>
+
